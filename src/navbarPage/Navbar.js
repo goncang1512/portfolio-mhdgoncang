@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import "./NavbarMenu.js";
 
 function Navbar() {
   return (
@@ -21,6 +22,13 @@ function Navbar() {
           <a href="">Contact</a>
         </li>
       </ul>
+
+      <div className="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   );
 }

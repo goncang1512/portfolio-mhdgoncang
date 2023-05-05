@@ -66,3 +66,27 @@ button {
 p {
   font-family: "Roboto", sans-serif;
 }
+
+/* Media query mobile */
+@media (max-width: 420px) {
+  /* name page */
+  .name-page {
+    padding-top: 40%;
+  }
+
+  /* Section biografi */
+  .section-biografi {
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .foto-bio img,
+  .isi-bio img {
+    margin: 0px;
+  }
+
+  .isi-bio p,
+  h2 {
+    margin: 20px;
+  }
+}

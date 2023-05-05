@@ -68,3 +68,10 @@
   position: absolute;
   font-size: 13px;
 }
+
+/* Query Mobile */
+@media (max-width: 420px) {
+  .teks-page {
+    margin: 5px;
+  }
+}
