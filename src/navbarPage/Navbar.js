@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navbar.css";
-import "./NavbarMenu.js";
 
 function Navbar() {
+  useEffect(() => {
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const navbarMenu = document.querySelector(".navbar-menu");
+
+    function handleClick() {
+      navbarMenu.classList.toggle("slide");
+    }
+
+    menuToggle.addEventListener("click", handleClick);
+
+    return () => {
+      menuToggle.removeEventListener("click", handleClick);
+    };
+  }, []);
   return (
     <div className="navbar">
       <div className="navbar-logo">
