@@ -20,7 +20,8 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  height: 100vh;
+  height: 100vw;
+  width: 100vh;
 }
 
 .name-page {
