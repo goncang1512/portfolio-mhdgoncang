@@ -69,7 +69,7 @@ p {
 }
 
 /* Media query mobile */
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   /* name page */
   .name-page {
     padding-top: 40%;
