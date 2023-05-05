@@ -86,8 +86,9 @@ p {
   }
   .isi-bio img {
     margin: 0px;
-    width: 100vw;
+    width: 120vw;
     height: 100vh;
+    object-fit: cover;
   }
 
   .isi-bio p,
