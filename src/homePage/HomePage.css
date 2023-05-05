@@ -81,9 +81,13 @@ p {
     flex-direction: column;
   }
 
-  .foto-bio img,
+  .foto-bio img {
+    margin: 0;
+  }
   .isi-bio img {
     margin: 0px;
+    width: 300px;
+    height: 200px;
   }
 
   .isi-bio p,
