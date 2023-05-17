@@ -107,7 +107,7 @@
 
   /* navbar menu */
   .navbar-menu {
-    position: absolute;
+    position: fixed;
     margin: 0;
     flex-direction: column;
     top: 0;
@@ -118,6 +118,7 @@
     transform: translateX(100%);
     transition: all 1s;
     background-color: #fff;
+    overflow: scroll;
   }
 
   .navbar-menu.slide {

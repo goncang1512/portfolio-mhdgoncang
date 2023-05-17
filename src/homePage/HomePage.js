@@ -20,7 +20,7 @@ function HomePage() {
           <img src="https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" />
         </div>
         <div className="isi-bio">
-          <h2>Bio</h2>
+          <h2>About</h2>
           <p>
             Nama saya Mhd Goncang, saya seorang front end web develoment
             <br />
