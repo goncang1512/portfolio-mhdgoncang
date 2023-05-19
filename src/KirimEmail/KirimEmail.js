@@ -27,12 +27,16 @@ function KirimEmail() {
           {/* card bagian kanan kirim email */}
           <div className="right">
             <div className="right-container">
-              <form action="">
-                <h2>Kirim Email</h2>
-                <input type="text" placeholder="Nama" />
-                <input type="email" placeholder="Alamat Email" />
-                <input type="phone" placeholder="Telepone" />
-                <textarea rows="10" placeholder="Pesan"></textarea>
+              <h2>Kirim Email</h2>
+              <form action="https://formspree.io/f/mdovjrbr" method="POST">
+                <input type="text" name="name" placeholder="Nama" />
+                <input type="email" name="email" placeholder="Alamat Email" />
+                <input type="phone" name="contact_no" placeholder="Telepone" />
+                <textarea
+                  rows="10"
+                  name="messege"
+                  placeholder="Pesan"
+                ></textarea>
                 <button>Kirim</button>
               </form>
             </div>
