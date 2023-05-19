@@ -59,7 +59,7 @@ button {
 }
 
 .isi-bio img {
-  margin: 170px 0px 50px 150px;
+  margin: 120px 0px 50px 150px;
   width: 500px;
   height: 400px;
 }
@@ -79,6 +79,10 @@ p {
   .section-biografi {
     padding: 0px;
     flex-direction: column;
+  }
+
+  .foto-bio img {
+    width: 100vw;
   }
 
   .foto-bio img {
