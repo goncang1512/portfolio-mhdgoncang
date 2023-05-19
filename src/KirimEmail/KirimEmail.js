@@ -29,14 +29,10 @@ function KirimEmail() {
             <div className="right-container">
               <h2>Kirim Email</h2>
               <form action="https://formspree.io/f/mdovjrbr" method="POST">
-                <input type="text" name="name" placeholder="Nama" />
-                <input type="email" name="email" placeholder="Alamat Email" />
-                <input type="phone" name="contact_no" placeholder="Telepone" />
-                <textarea
-                  rows="10"
-                  name="messege"
-                  placeholder="Pesan"
-                ></textarea>
+                <input type="text" name="Nama" placeholder="Nama" />
+                <input type="email" name="Email" placeholder="Alamat Email" />
+                <input type="phone" name="Kontak" placeholder="Telepone" />
+                <textarea rows="10" name="Pesan" placeholder="Pesan"></textarea>
                 <button>Kirim</button>
               </form>
             </div>
