@@ -5,7 +5,10 @@
   flex-direction: column;
   font-size: 10px;
   height: 100vh;
-  background-color: #007a8d;
+  background-image: url("img/trianglify-lowres.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 10px;
 }
 
@@ -29,7 +32,8 @@
 .left {
   flex: 1;
   height: 522px;
-  background-color: #00b4cf;
+  background-color: #0093e9;
+  background-image: linear-gradient(180deg, #0093e9 52%, #4cbcff 77%);
   display: flex;
   justify-content: center;
   align-items: center;
