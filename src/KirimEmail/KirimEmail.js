@@ -1,7 +1,18 @@
 import React from "react";
 import "./KirimEmail.css";
+import { useForm } from "@formspree/react";
 
 function KirimEmail() {
+  const [state, handleSubmit] = useForm("mdovjrbr");
+  if (state.succeeded) {
+    return (
+      <div className="EmailThanks">
+        <div className="container-EmailThanks">
+          <h1>Pesan sudah di kirim</h1>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="body">
       <div className="container-email">
@@ -28,12 +39,27 @@ function KirimEmail() {
           <div className="right">
             <div className="right-container">
               <h2>Kirim Email</h2>
-              <form action="https://formspree.io/f/mdovjrbr" method="POST">
-                <input type="text" name="Nama" placeholder="Nama" />
-                <input type="email" name="Email" placeholder="Alamat Email" />
-                <input type="phone" name="Kontak" placeholder="Telepone" />
-                <textarea rows="10" name="Pesan" placeholder="Pesan"></textarea>
-                <button>Kirim</button>
+              <form onSubmit={handleSubmit}>
+                <input type="text" name="Nama" placeholder="Nama" required />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Alamat Email"
+                  required
+                />
+                <input
+                  type="phone"
+                  name="Kontak"
+                  placeholder="Telepone"
+                  required
+                />
+                <textarea
+                  rows="10"
+                  name="Pesan"
+                  placeholder="Pesan"
+                  required
+                ></textarea>
+                <button type="submit">Kirim</button>
               </form>
             </div>
           </div>

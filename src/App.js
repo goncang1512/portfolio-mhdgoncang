@@ -1,7 +1,7 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./homePage/HomePage";
 import KirimEmail from "./KirimEmail/KirimEmail";
+import HomePage from "./homePage/HomePage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

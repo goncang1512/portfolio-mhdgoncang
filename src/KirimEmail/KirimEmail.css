@@ -113,3 +113,25 @@ textarea {
     display: none;
   }
 }
+
+/* Email Thanks */
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.container-EmailThanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2019/03/01/11/21/letters-4027716_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.container-EmailThanks h1 {
+  font-family: "Yellowtail", cursive;
+  font-size: 80px;
+  color: #fff;
+}
