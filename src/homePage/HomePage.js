@@ -23,33 +23,25 @@ function HomePage() {
         </div>
         <div className="isi-bio">
           <h2>About</h2>
-          <p>
-            Halo, perekanalkan saya Mhd Goncang Samudera. Saya adalah seorang
-            Front End Developer
+          <div className="paragraf-about">
+            <p>
+              Halo, perekanalkan saya Mhd Goncang Samudera. Saya adalah seorang
+              Front End Developer dengan keahlian dalam menciptakan pengalaman
+              pengguna yang menarik dan responsife di web. Saya sangat antusias
+              dalam menggabungkan desain kreatif dengan teknologi modern untuk
+              menciptakan situs web yang memukau.
+            </p>
             <br />
-            dengan keahlian dalam menciptakan pengalaman pengguna yang menarik
-            dan responsife di web.
-            <br />
-            Saya sangat antusias dalam menggabungkan desain kreatif dengan
-            teknologi modern untuk
-            <br />
-            menciptakan situs web yang memukau.
-          </p>
-          <p>
-            Dengan latar belakang pendidikan di SMA. Saya belajar front end
-            development dengan menonton
-            <br />
-            You Tube dan belajar dari website. Saya telah memperoleh pemahaman
-            yang mendalam tentang
-            <br />
-            bahasa pemograman seperti HTML dan CSS, sedangakan untuk Java Script
-            saya hanya bisa
-            <br />
-            memahami dasarnya saja. Dan framework yang saya gunakan adalah React
-            JS untuk membangun
-            <br />
-            antarmuka yang dinamis.
-          </p>
+            <p>
+              Dengan latar belakang pendidikan di SMA. Saya belajar front end
+              development dengan menonton You Tube dan belajar dari website.
+              Saya telah memperoleh pemahaman yang mendalam tentang bahasa
+              pemograman seperti HTML dan CSS, sedangakan untuk Java Script saya
+              hanya bisa memahami dasarnya saja. Dan framework yang saya gunakan
+              adalah React JS untuk membangun antarmuka yang dinamis.
+            </p>
+          </div>
+
           <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
         </div>
       </div>

@@ -1,0 +1,117 @@
+.body-projek-aku {
+  margin: 0;
+  margin-top: -10px;
+}
+
+.container-projek-aku {
+  margin: 10px 0px 10px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: 51.5% auto;
+  background-position: right;
+}
+
+/* koneten projek */
+.tittle-projek {
+  flex: 1.6;
+  margin-top: 40px;
+}
+
+.paragraf-title {
+  width: 47%;
+}
+
+/* Card project */
+.konten-kanan {
+  width: 47%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-projek {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-projek div {
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card-projek div img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.card-projek div:hover img {
+  transform: scale(1.2);
+}
+
+.card-projek div .tittle-box {
+  content: "";
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  z-index: 1;
+  transform: translateY(50px);
+  transition: 0.5s ease;
+}
+.card-projek div:hover .tittle,
+.card-projek div:hover .tittle-box {
+  transform: translateY(0);
+}
+
+.card-projek div .tittle {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 2;
+  bottom: 10px;
+  padding: 10px;
+  transform: translateY(50px);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .body-projek-aku {
+    margin: 0;
+  }
+
+  .tittle-projek {
+    margin: 20px;
+  }
+
+  .container-projek-aku {
+    margin: 0;
+    flex-direction: column;
+    height: 105vh;
+  }
+
+  .paragraf-title {
+    width: 100%;
+  }
+
+  /* Card project */
+  .konten-kanan {
+    margin-bottom: 600px;
+    margin-top: -10px;
+  }
+  .card-projek div {
+    width: 189px;
+    height: 301px;
+    border: none;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./karyaPage.css";
+import ProjekAku from "../ProjekAku/ProjekAku";
 import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
 
@@ -19,6 +20,10 @@ function projectpage() {
           </h4>
           <p>― Rick Cook ―</p>
         </div>
+      </div>
+
+      <div className="projek-aku-page">
+        <ProjekAku />
       </div>
       {/* contact page */}
       <div className="contact-page">

@@ -68,6 +68,10 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+.paragraf-about {
+  width: 75%;
+}
+
 /* Media query mobile */
 @media (max-width: 500px) {
   /* name page */
@@ -88,6 +92,7 @@ p {
   .foto-bio img {
     margin: 0;
   }
+
   .isi-bio img {
     width: 100vw;
     height: 100vh;
@@ -98,5 +103,9 @@ p {
   .isi-bio p,
   h2 {
     margin: 20px;
+  }
+
+  .paragraf-about {
+    width: 100%;
   }
 }
