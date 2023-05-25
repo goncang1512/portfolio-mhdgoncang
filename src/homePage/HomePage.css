@@ -11,6 +11,10 @@ button {
   cursor: pointer;
 }
 
+.navbar-page {
+  z-index: 500;
+}
+
 /* Section 1 name */
 .section-name {
   height: auto;

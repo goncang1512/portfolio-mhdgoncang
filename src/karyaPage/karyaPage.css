@@ -32,7 +32,7 @@
 
 /* Contact */
 .contact-page {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,9 +74,5 @@
 @media (max-width: 500px) {
   .teks-page {
     margin: 5px;
-  }
-
-  .contact-page {
-    margin-top: -170px;
   }
 }

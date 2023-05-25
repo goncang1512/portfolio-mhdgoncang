@@ -1,6 +1,8 @@
 import React from "react";
 import "./ProjekAku.css";
-import { AiOutlineUser } from "react-icons/ai";
+import ImgProjek2 from "./img/projek-02.jpg";
+import ImgProjek3 from "./img/projek-03.jpg";
+import ImgProjek4 from "./img/projek-04.jpg";
 
 export default function ProjekAku() {
   return (
@@ -21,6 +23,27 @@ export default function ProjekAku() {
           <div className="card-projek">
             <div>
               <img src="https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1lcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+              <h3 className="tittle-box"></h3>
+              <h3 className="tittle">My Project</h3>
+            </div>
+          </div>
+          <div className="card-projek">
+            <div>
+              <img src={ImgProjek2} />
+              <h3 className="tittle-box"></h3>
+              <h3 className="tittle">My Project</h3>
+            </div>
+          </div>
+          <div className="card-projek">
+            <div>
+              <img src={ImgProjek3} />
+              <h3 className="tittle-box"></h3>
+              <h3 className="tittle">My Project</h3>
+            </div>
+          </div>
+          <div className="card-projek">
+            <div>
+              <img src={ImgProjek4} />
               <h3 className="tittle-box"></h3>
               <h3 className="tittle">My Project</h3>
             </div>
