@@ -119,6 +119,7 @@ p {
   /* Section biografi */
   .section-biografi {
     padding: 0px;
+    padding-top: 20px;
     flex-direction: column;
   }
 
