@@ -26,7 +26,7 @@ function projectpage() {
         <ProjekAku />
       </div>
       {/* contact page */}
-      <div className="contact-page">
+      <div className="contact-page" id="contact">
         <h1>Contact</h1>
         <p>Email : samuderanst@gmail.com</p>
         <ul className="list-medsos">

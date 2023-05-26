@@ -6,7 +6,7 @@ import ImgProjek4 from "./img/projek-04.jpg";
 
 export default function ProjekAku() {
   return (
-    <div className="body-projek-aku">
+    <div className="body-projek-aku" id="project">
       <div className="container-projek-aku">
         <div className="tittle-projek">
           <h1>Project </h1>

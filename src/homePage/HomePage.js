@@ -8,7 +8,7 @@ import "./HomePage.css";
 function HomePage() {
   const navigate = useNavigate();
   return (
-    <div className="HomePage">
+    <div className="HomePage" id="home">
       <div className="navbar-page">
         <Navbar />
       </div>
@@ -18,14 +18,14 @@ function HomePage() {
           <button onClick={() => navigate("/kirim-email")}>KIRIM EMAIL</button>
         </div>
       </div>
-      <div className="section-biografi">
+      <div className="section-biografi" id="about">
         <div className="foto-bio">
           <div className="blobmaker">
             <svg width="100%" height="100%" className="blob">
               <path>
                 <animate
                   attributeName="d"
-                  dur="10000ms"
+                  dur="15000ms"
                   repeatCount="indefinite"
                   values="
                   M417,308.5Q389,367,334,392Q279,417,221.5,408.5Q164,400,90.5,367.5Q17,335,18.5,250.5Q20,166,79,111.5Q138,57,212.5,49Q287,41,355,73Q423,105,434,177.5Q445,250,417,308.5Z; 
@@ -48,7 +48,7 @@ function HomePage() {
               <path>
                 <animate
                   attributeName="d"
-                  dur="10000ms"
+                  dur="15000ms"
                   repeatCount="indefinite"
                   values="
                   M417,308.5Q389,367,334,392Q279,417,221.5,408.5Q164,400,90.5,367.5Q17,335,18.5,250.5Q20,166,79,111.5Q138,57,212.5,49Q287,41,355,73Q423,105,434,177.5Q445,250,417,308.5Z; 

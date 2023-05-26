@@ -52,6 +52,7 @@ button {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding-top: 55px;
 }
 
 .isi-bio {
