@@ -21,8 +21,8 @@ function HomePage() {
       <div className="section-biografi">
         <div className="foto-bio">
           <div className="blobmaker">
-            <svg width="100%" height="100%">
-              <path fill="blue">
+            <svg width="100%" height="100%" className="blob">
+              <path>
                 <animate
                   attributeName="d"
                   dur="10000ms"
@@ -44,8 +44,8 @@ function HomePage() {
             </svg>
           </div>
           <div className="blobmaker">
-            <svg width="100%" height="100%">
-              <path fill="blue">
+            <svg width="100%" height="100%" className="blob">
+              <path>
                 <animate
                   attributeName="d"
                   dur="10000ms"

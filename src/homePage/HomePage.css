@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   font-family: "Crimson Text", serif;
+  overflow-x: hidden;
 }
 
 button {
@@ -99,8 +100,12 @@ p {
 
 .foto-bio img {
   width: 100%;
-  height: 100vh;
+  height: auto;
   position: absolute;
+}
+
+.blob {
+  fill: #09005a;
 }
 
 /* Media query mobile */
