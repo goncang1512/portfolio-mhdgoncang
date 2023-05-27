@@ -105,10 +105,6 @@ p {
   position: absolute;
 }
 
-.blob {
-  fill: #09005a;
-}
-
 /* Media query mobile */
 @media (max-width: 500px) {
   /* name page */
@@ -142,9 +138,13 @@ p {
     margin: 0px;
   }
 
+  .isi-bio {
+    margin-top: -10px;
+  }
+
   .isi-bio p,
   h2 {
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
   }
 
   .paragraf-about {

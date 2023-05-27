@@ -22,7 +22,16 @@ function HomePage() {
         <div className="foto-bio">
           <div className="blobmaker">
             <svg width="100%" height="100%" className="blob">
-              <path>
+              <defs>
+                <linearGradient
+                  id="gradient"
+                  gradientTransform="rotate(90 .5 .5)"
+                >
+                  <stop offset="0%" stop-color="#000" />
+                  <stop offset="100%" stop-color="#1100aa" />
+                </linearGradient>
+              </defs>
+              <path fill="url(#gradient)">
                 <animate
                   attributeName="d"
                   dur="15000ms"
@@ -45,7 +54,16 @@ function HomePage() {
           </div>
           <div className="blobmaker">
             <svg width="100%" height="100%" className="blob">
-              <path>
+              <defs>
+                <linearGradient
+                  id="gradient"
+                  gradientTransform="rotate(90 .5 .5)"
+                >
+                  <stop offset="0%" stop-color="#000" />
+                  <stop offset="100%" stop-color="#1100aa" />
+                </linearGradient>
+              </defs>
+              <path fill="url(#gradient)">
                 <animate
                   attributeName="d"
                   dur="15000ms"
