@@ -49,7 +49,7 @@
 }
 
 .navbar-menu li a:hover {
-  background-color: #00000020;
+  background-color: #fff;
 }
 
 /* Menu toogle */
@@ -153,5 +153,8 @@
     transform: translateX(0);
   }
 
-  /* menu toggle */
+  /* menu list hover */
+  .navbar-menu li a:hover {
+    background-color: #00000044;
+  }
 }
