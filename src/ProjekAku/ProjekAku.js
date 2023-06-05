@@ -3,6 +3,7 @@ import "./ProjekAku.css";
 import ImgProjek2 from "./img/projek-02.jpg";
 import ImgProjek3 from "./img/projek-03.jpg";
 import ImgProjek4 from "./img/projek-04.jpg";
+import ImgProjek1 from "./img/projek-01.png";
 
 export default function ProjekAku() {
   return (
@@ -22,9 +23,17 @@ export default function ProjekAku() {
         <div className="konten-kanan">
           <div className="card-projek">
             <div>
-              <img src="https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1lcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+              <img src={ImgProjek1} />
               <h3 className="tittle-box"></h3>
-              <h3 className="tittle">My Project</h3>
+              <h3 className="tittle">
+                <a
+                  style={{ textDecoration: "none" }}
+                  className="tittle"
+                  href="https://web-kasir-mhdgoncang.netlify.app/"
+                >
+                  <h3>Kasir</h3>
+                </a>
+              </h3>
             </div>
           </div>
           <div className="card-projek">
